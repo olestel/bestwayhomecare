@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname  } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import menuData from "./menuData";
@@ -28,9 +28,9 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-7 ${
+      className={`fixed left-0 top-0 z-99999 w-full ${
         stickyMenu
-          ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
+          ? "bg-white !py-1 shadow transition duration-100 dark:bg-black"
           : ""
       }`}
     >
@@ -40,9 +40,9 @@ const Header = () => {
             <Image
               src="/images/logo/logo-light.svg"
               alt="logo"
-              width={119.03}
-              height={30}
-              className="w-full dark:hidden"
+              width={150}
+              height={80}
+              className="w-full dark:hidden h-25"
             />
           </a>
 

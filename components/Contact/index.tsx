@@ -21,7 +21,7 @@ const Contact = () => {
     <>
       {/* <!-- ===== Contact Start ===== --> */}
       <section id="contact-us" className="px-4 md:px-8 2xl:px-0 pb-20 lg:pb-25 xl:pb-30">
-        <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
+        <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-30">
           {/* <!-- Section Title Start --> */}
             <SectionHeader
               headerInfo={{

@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
-          <div className="py-20 lg:py-25">
+          <div className="py-5 lg:py-10">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
               <motion.div
                 variants={{
@@ -57,7 +57,6 @@ const Footer = () => {
                 <a
                   href="tel:2244885484"
                   className="text-itemtitle font-medium text-black dark:text-white"
-                  style={{  }}
                 >
                   (224) 488-5484
                 </a>

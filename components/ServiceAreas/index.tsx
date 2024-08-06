@@ -17,7 +17,7 @@ const ServiceAreas = () => {
   return (
     <>
       {/* <!-- ===== ServiceAreas Start ===== --> */}
-      <section id="service-areas" className="overflow-hidden pb-20 lg:pb-25 xl:pb-30 pt-25">
+      <section id="service-areas" className="overflow-hidden pb-20 lg:pb-25 xl:pb-30 pt-30">
         <div className="relative mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
             <SectionHeader
